@@ -24,6 +24,8 @@ This includes:
 
 Please refer to the [models](https://github.com/ICL-ml4csec/VulBERTa/tree/main/models "models") directory for further instructions and details.
 
+**Take care:** VulBERTa-main/models/VB-MLP_mvd/config.json
+
 ## Pre-requisites and requirements
 
 In general, we used this version of packages when running the experiments:
@@ -35,6 +37,8 @@ In general, we used this version of packages when running the experiments:
  - Libclang (any version > 12.0 should work. https://pypi.org/project/libclang/)
 
 For an exhaustive list of all the packages, please refer to [requirements.txt](https://github.com/ICL-ml4csec/VulBERTa/blob/main/requirements.txt "requirements.txt") file.
+
+**Please check the original paper for experimental environments, I run this experiment with 3 RTX 2080Ti on July 15th, 2023 but met a bug which throws exception named `CUDA error: CUBLAS STATUS NOT INITIALIZED when calling 'cublasCreatelhandle)`**
 
 ## How to use
 
